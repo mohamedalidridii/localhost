@@ -43,7 +43,7 @@ const AnimatedHeaderSection = ({
       <div style={{ clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)" }}>
         <div
           ref={headerRef}
-          className="flex flex-col justify-center gap-12 pt-16 sm:gap-16"
+          className="flex flex-col justify-center gap-12 pt-16 sm:gap-12"
         >
           <p
             className={`text-sm font-light tracking-[0.5rem] uppercase px-2 ${textColor}`}
