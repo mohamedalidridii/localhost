@@ -134,12 +134,12 @@ body {
   @apply text-[42px] sm:text-[52px] md:text-[62px] lg:text-[100px];
 }
 .tache {
-  margin: auto;
+
   position: relative;
   top: 0;
   right: 0;
   bottom: 0;
-  left: 0;
+  left: 15px;
   background: #5865F2;
   width: 50vmin;
   height: 50vmin;
