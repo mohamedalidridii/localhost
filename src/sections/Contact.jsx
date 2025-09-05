@@ -38,6 +38,15 @@ const Contact = () => {
           textColor={"text-white"}
           withScrollTrigger={true}
         />
+          <div class="tache">
+      <div class="right"></div>
+      <div class="left"></div>
+      <div class="eye"></div>
+      <div class="leg"></div>
+      <div class="leg1"></div>
+      <div class="leg2"></div>
+      <div class="ear"></div>
+    </div>
         <div className="flex px-10 font-light text-white uppercase lg:text-[32px] text-[26px] leading-none mb-10">
           <div className="flex flex-col w-full gap-10">
             <div className="social-link">

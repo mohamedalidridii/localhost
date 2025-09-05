@@ -107,6 +107,7 @@
 }
 
 body {
+    maxwidth: 100vw;
   background: #e5e5e0;
   color: black;
   scroll-behavior: smooth;
