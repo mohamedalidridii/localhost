@@ -12,7 +12,7 @@ Localhost is a cross-platform community of 25,000+ Arab tech enthusiasts, learni
     <section id="home" className="flex flex-col justify-end min-h-screen">
       <AnimatedHeaderSection
         subTitle={"Connecting 25k Tech Enthusiasts"}
-        title={"LOCALHOST"}
+        title={"Home"}
         text={text}
         textColor={"text-black"}
       />
