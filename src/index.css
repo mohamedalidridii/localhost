@@ -133,4 +133,234 @@ body {
 @utility contact-text-responsive {
   @apply text-[42px] sm:text-[52px] md:text-[62px] lg:text-[100px];
 }
+.tache {
+  margin: auto;
+  position: relative;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: #5865F2;
+  width: 50vmin;
+  height: 50vmin;
+  transition: 0.5s;
+  animation: 7s ease-in-out 0s infinite alternate smooth;
+}
 
+.tache .left,
+.tache .right {
+  width: 23vmin;
+  height: 24.7vmin;
+  background: #ffffff;
+  border-radius: 50% / 10%;
+}
+
+.tache .left::before,
+.tache .right::before {
+  content: "";
+  position: absolute;
+  top: 9%;
+  bottom: 9%;
+  right: -5%;
+  left: -5%;
+  background: inherit;
+  border-radius: 5% / 50%;
+}
+
+.tache .left {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  top: -1.2vmin;
+  left: 12.7vmin;
+  transform: skewX(14deg);
+}
+
+.tache .right {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  top: -1.2vmin;
+  left: -12vmin;
+  transform: skewX(-14deg);
+}
+.tache .ear,
+.tache .ear::after {
+  width: 11.2vmin;
+  height: 10vmin;
+  background: #ffffff;
+  border-radius: 50% / 10%;
+}
+
+.tache .ear {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  top: -16.5vmin;
+  left: 17vmin;
+  transform: rotate(19deg);
+}
+
+.tache .ear::after {
+  content: "";
+  position: absolute;
+  top: 5.2vmin;
+  left: -15.8vmin;
+  transform: rotate(-35.5deg);
+}
+
+.tache .eye,
+.tache .eye::before {
+  width: 7vmin;
+  height: 7.7vmin;
+  background: #5865F2;
+  border-radius: 50%;
+}
+
+.tache .eye {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  z-index: 2;
+  top: 4.8vmin;
+  left: -12.5vmin;
+}
+
+.tache .eye::before {
+  content: "";
+  position: absolute;
+  left: 12.5vmin;
+}
+
+.tache .eye::after {
+  content: "";
+  position: absolute;
+  top: 9.6vmin;
+  left: 3.1vmin;
+  width: 14.89vmin;
+  height: 4vmin;
+  border-radius: 50%;
+  background: #ffffff;
+}
+
+.tache .leg,
+.tache .leg::before {
+  width: 13.2vmin;
+  height: 10vmin;
+  background: #ffffff;
+  border-radius: 50% / 20%;
+}
+
+.tache .leg {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  top: 17.7vmin;
+  left: 26.3vmin;
+  transform: rotate(-23deg);
+}
+
+.tache .leg::before {
+  content: "";
+  position: absolute;
+  top: -10.2vmin;
+  left: -24vmin;
+  transform: rotate(47deg);
+}
+
+.tache .leg1 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  top: 18.2vmin;
+  left: -15.5vmin;
+  width: 8.2vmin;
+  height: 5vmin;
+  background: #5865F2;
+  border-radius: 40% 5%;
+  transform: rotate(26deg);
+}
+
+.tache .leg1::before {
+  content: "";
+  position: absolute;
+  top: -1.03vmin;
+  left: -2.3vmin;
+  width: 13vmin;
+  height: 5vmin;
+  background: #ffffff;
+  border-radius: 50%;
+  transform: rotate(-5deg);
+}
+
+.tache .leg1::after {
+  content: "";
+  position: absolute;
+  top: 4.7vmin;
+  left: 8vmin;
+  width: 2vmin;
+  background: #50f;
+  transform: rotate(13deg);
+}
+
+.tache .leg2 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  top: 19.2vmin;
+  left: 15.5vmin;
+  width: 8.2vmin;
+  height: 5vmin;
+  background: #5865F2;
+  border-radius: 5% 40%;
+  transform: rotate(-22deg);
+}
+
+.tache .leg2::before {
+  content: "";
+  position: absolute;
+  top: -1.1vmin;
+  left: -2.3vmin;
+  width: 13vmin;
+  height: 5vmin;
+  background: #ffffff;
+  border-radius: 50%;
+  transform: rotate(5deg);
+}
+
+.tache .leg2::after {
+  content: "";
+  position: absolute;
+  top: 5.4vmin;
+  left: 2vmin;
+  width: 4vmin;
+  height: 4vmin;
+  transform: rotate(-18deg);
+}
+
+@keyframes smooth {
+  0% {
+    border-radius: 81% 19% 50% 50% / 41% 79% 21% 59%;
+  }
+
+  50% {
+    border-radius: 43% 37% 80% 20% / 34% 73% 27% 66%;
+  }
+
+  100% {
+    border-radius: 26% 74% 21% 79% / 71% 34% 66% 29%;
+  }
+}

@@ -5,14 +5,12 @@ import { socials } from "../constants";
 import gsap from "gsap";
 
 const Contact = () => {
-  const text = `Got a question, how or project Idea?
-    WE’D love to hear from you and discus further!`;
+  const text = `Invitation links to join the community will be posted on the 1st and 15th of every month`;
   const items = [
-    "just imagin, I code",
-    "just imagin, I code",
-    "just imagin, I code",
-    "just imagin, I code",
-    "just imagin, I code",
+    "Exclusive IT server",
+    "Exclusive IT server",
+    "Exclusive IT server",
+    "Exclusive IT server",
   ];
   useGSAP(() => {
     gsap.from(".social-link", {
@@ -34,44 +32,29 @@ const Contact = () => {
     >
       <div>
         <AnimatedHeaderSection
-          subTitle={"You Dream It, I Code it"}
-          title={"Contact"}
+          subTitle={"How to join the server ?"}
+          title={"Exclusive"}
           text={text}
           textColor={"text-white"}
           withScrollTrigger={true}
         />
+          <div class="tache">
+      <div class="right"></div>
+      <div class="left"></div>
+      <div class="eye"></div>
+      <div class="leg"></div>
+      <div class="leg1"></div>
+      <div class="leg2"></div>
+      <div class="ear"></div>
+    </div>
         <div className="flex px-10 font-light text-white uppercase lg:text-[32px] text-[26px] leading-none mb-10">
           <div className="flex flex-col w-full gap-10">
             <div className="social-link">
-              <h2>E-mail</h2>
+              <h2>be a memeber</h2>
               <div className="w-full h-px my-2 bg-white/30" />
               <p className="text-xl tracking-wider lowercase md:text-2xl lg:text-3xl">
-                JohnDoe@gmail.com
+               the server is closed temporarily to new members
               </p>
-            </div>
-            <div className="social-link">
-              <h2>Phone</h2>
-              <div className="w-full h-px my-2 bg-white/30" />
-              <p className="text-xl lowercase md:text-2xl lg:text-3xl">
-                +33 7 12 12 32 12
-              </p>
-            </div>
-            <div className="social-link">
-              <h2>Social Media</h2>
-              <div className="w-full h-px my-2 bg-white/30" />
-              <div className="flex flex-wrap gap-2">
-                {socials.map((social, index) => (
-                  <a
-                    key={index}
-                    href={social.href}
-                    className="text-xs leading-loose tracking-wides uppercase md:text-sm hover:text-white/80 transition-colors duration-200"
-                  >
-                    {"{ "}
-                    {social.name}
-                    {" }"}
-                  </a>
-                ))}
-              </div>
             </div>
           </div>
         </div>

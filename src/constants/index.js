@@ -1,28 +1,28 @@
 // index.js
 export const servicesData = [
   {
-    title: "FullStack Development",
+    title: "Cloud Computing",
     description:
-      "Your business deserves a fast, secure, and future-proof digital foundation. I develop custom web apps with clean architecture, optimized databases, and seamless integrations—ensuring reliability at every layer.",
+      "Our cloud enthusiasts share knowledge on AWS, Azure, and GCP. From deployment to scaling, the community helps members design resilient infrastructures and master cloud certifications.",
     items: [
       {
-        title: "Backend Engineering",
-        description: "(REST/GraphQL APIs, Microservices, Auth Systems)",
+        title: "AWS",
+        description: "",
       },
       {
-        title: "Frontend Excellence",
-        description: "(React, Vue, TypeScript, Interactive UI/UX)",
+        title: "AZURE",
+        description: "",
       },
       {
-        title: "Database Design",
-        description: "(SQL/NoSQL Optimization, Scalable Structures)",
+        title: "ORACLE",
+        description: "",
       },
     ],
   },
   {
-    title: "DevOps & Cloud Solutions",
+    title: "DevOps",
     description:
-      "Deploying software shouldn't be a gamble. I automate infrastructure, enforce security, and leverage cloud platforms (AWS/Azure) to keep your app running smoothly—24/7, at any scale.",
+      "Automation is at our core. The DevOps circle helps members master CI/CD pipelines, containerization (Docker/Kubernetes), and infrastructure as code—building a culture of speed, reliability, and collaboration.",
     items: [
       {
         title: "CI/CD Pipelines",
@@ -41,7 +41,7 @@ export const servicesData = [
   {
     title: "Security & Optimization",
     description:
-      "Slow or hacked apps destroy trust. I harden security (XSS/SQLI protection, OAuth) and optimize bottlenecks so your app stays fast, safe, and scalable as you grow.",
+      "Security is everyone’s responsibility. This category unites ethical hackers, defenders, and learners to exchange knowledge on pen testing, cryptography, and strategies to safeguard systems against real-world threats.",
     items: [
       {
         title: "Code Audits",
@@ -58,9 +58,9 @@ export const servicesData = [
     ],
   },
   {
-    title: "Web & Mobile Apps",
+    title: "Data Science",
     description:
-      "A clunky interface can sink even the best ideas. I craft responsive, pixel perfect web and mobile apps (React Native/Flutter) that users love—bridging design and functionality seamlessly.",
+      "Our data scientists uncover insights from raw data. Together, they share projects, tools, and methods to transform information into actionable knowledge that drives innovation.",
     items: [
       {
         title: "Cross-Platform Apps",
@@ -80,93 +80,50 @@ export const servicesData = [
 export const projects = [
   {
     id: 1,
-    name: "Mobile Accessories E-commerce",
+    name: "Instagram",
     description:
-      "An online store specializing in phone accessories including cases, chargers, cables, and power banks with MagSafe compatibility.",
-    href: "",
+      "@ig: medaly.dridi",
+    href: "https://www.instagram.com/medaly.dridi",
     image: "/assets/projects/mobile-accessories-store.jpg",
     bgImage: "/assets/backgrounds/blanket.jpg",
     frameworks: [
-      { id: 1, name: "React" },
-      { id: 2, name: "Next.js" },
-      { id: 3, name: "Node.js" },
-      { id: 4, name: "MongoDB" },
-      { id: 5, name: "Tailwind CSS" },
+      { id: 1, name: "@ig: medaly.dridi" },
     ],
   },
   {
     id: 2,
-    name: "Plant Shop E-commerce",
+    name: "Tiktok",
     description:
-      "An online store specializing in rare and decorative plants with a clean, user-friendly interface.",
-    href: "",
+      "@tiktok: medaly.dridi",
+    href: "https://www.tiktok.com/medaly.dridi",
     image: "/assets/projects/plant-shop.jpg",
     bgImage: "/assets/backgrounds/curtains.jpg",
     frameworks: [
-      { id: 1, name: "React" },
-      { id: 2, name: "Next.js" },
-      { id: 3, name: "Stripe API" },
-      { id: 4, name: "Tailwind CSS" },
+      { id: 1, name: "@Tiktok: medaly.dridi" },
     ],
   },
   {
     id: 3,
-    name: "Apple Tech Marketplace",
+    name: "Youtube",
     description:
-      "An e-commerce platform for Apple products and accessories with deals and category filtering.",
-    href: "",
+      "youtube/medalydridiY",
+    href: "@YOUTUBE: medaly.dridiY",
     image: "/assets/projects/apple-tech-store.jpg",
     bgImage: "/assets/backgrounds/map.jpg",
     frameworks: [
-      { id: 1, name: "Blazor" },
-      { id: 2, name: "ASP.NET Core" },
-      { id: 3, name: "SQL Server" },
-      { id: 4, name: "Bootstrap" },
+      { id: 1, name: "medaly.dridi" },
     ],
   },
   {
     id: 4,
-    name: "Electronics & Gadgets Store",
+    name: "Discord",
     description:
-      "A multi-category online shop featuring electronics, home appliances, and gaming gear with special offers.",
+      "",
     href: "",
     image: "/assets/projects/electronics-store.jpg",
     bgImage: "/assets/backgrounds/poster.jpg",
     frameworks: [
-      { id: 1, name: "Vue.js" },
-      { id: 2, name: "Laravel" },
-      { id: 3, name: "MySQL" },
-      { id: 4, name: "SCSS" },
-    ],
-  },
-  {
-    id: 5,
-    name: "Home Decor Marketplace",
-    description:
-      "A curated collection of designer home decor items, including furniture and artisan vases.",
-    href: "",
-    image: "/assets/projects/home-decor-store.jpg",
-    bgImage: "/assets/backgrounds/table.jpg",
-    frameworks: [
-      { id: 1, name: "Angular" },
-      { id: 2, name: "Firebase" },
-      { id: 3, name: "GraphQL" },
-      { id: 4, name: "Material UI" },
-    ],
-  },
-  {
-    id: 6,
-    name: "Digital Game Store",
-    description:
-      "A gaming platform featuring discounted titles, top sellers, and genre-based browsing.",
-    href: "",
-    image: "/assets/projects/game-store.jpg",
-    bgImage: "/assets/backgrounds/curtains.jpg",
-    frameworks: [
-      { id: 1, name: "Svelte" },
-      { id: 2, name: "Node.js" },
-      { id: 3, name: "MongoDB" },
-      { id: 4, name: "Chakra UI" },
+      { id: 1, name: "Localhost Community by medaly.dridi" },
     ],
   },
 ];
