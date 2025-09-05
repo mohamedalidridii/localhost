@@ -88,7 +88,7 @@
   font-display: swap;
 }
 @theme {
-  --color-primary: #0000;
+  --color-primary: #e5e5e0;
   --color-DarkLava: #393632;
   --color-SageGray: #8b8b73;
   --color-gold: #cfa355;
@@ -107,7 +107,6 @@
 }
 
 body {
-    maxwidth: 100vw;
   background: #e5e5e0;
   color: black;
   scroll-behavior: smooth;
