@@ -22,11 +22,11 @@ Localhost is a cross-platform community of 25,000+ Arab tech enthusiasts, learni
       >
         <Canvas
           shadows
-          camera={{ position: [0, 0, -10], fov: 17.5, near: 1, far: 20 }}
+          camera={{ position: [0, 0, -10], fov: 20.5, near: 1, far: 20 }}
         >
           <ambientLight intensity={0.5} />
           <Float speed={0.5}>
-            <Planet scale={isMobile ? 0.7 : 1} />
+            <Planet scale={isMobile ? 0.9 : 1} />
           </Float>
           <Environment resolution={256}>
             <group rotation={[-Math.PI / 3, 4, 1]}>
