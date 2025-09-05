@@ -27,7 +27,7 @@ const Contact = () => {
   }, []);
   return (
     <section
-      id="contact"
+      id="join"
       className="flex flex-col justify-between min-h-screen bg-black"
     >
       <div>
