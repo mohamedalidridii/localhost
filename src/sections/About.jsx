@@ -6,7 +6,7 @@ import gsap from "gsap";
 
 const About = () => {
   const text = `I’m Med Ali Dridi a content creator who shares knowledge in technology and IT with a growing online community.`;
-  const aboutText = `"The primary mission of this community is to create a dedicated network for IT engineering professionals across the Arab world. Our goal is to facilitate knowledge sharing, generate new opportunities, and foster professional growth by collectively preparing for certifications and sharing valuable industry experiences."`;
+  const aboutText = `"The primary mission of this community is to create a dedicated network for IT engineering professionals across the Arab world. the main goal is to facilitate knowledge sharing, generate new opportunities, and foster professional growth by collectively preparing for certifications and sharing valuable industry experiences."`;
   const imgRef = useRef(null);
   useGSAP(() => {
     gsap.to("#about", {
