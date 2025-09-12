@@ -22,7 +22,7 @@ Localhost is a cross-platform community of 25,000+ Arab tech enthusiasts, learni
       >
         <Canvas
           shadows
-          camera={{ position: [0, 0, -10], fov: 20.5, near: 1, far: 20 }}
+          camera={{ position: [0, 0, -10], fov: 15.5, near: 1, far: 20 }}
         >
           <ambientLight intensity={0.5} />
           <Float speed={0.5}>
