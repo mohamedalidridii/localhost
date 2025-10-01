@@ -3,7 +3,6 @@ import AnimatedHeaderSection from "../components/AnimatedHeaderSection";
 import Marquee from "../components/Marquee";
 import { socials } from "../constants";
 import gsap from "gsap";
-
 const Contact = () => {
   const text = `Invitation links to join the community will be posted on the 1st and 15th of every month`;
   const items = [
@@ -52,9 +51,9 @@ const Contact = () => {
             <div className="social-link">
               <h2>be a memeber</h2>
               <div className="w-full h-px my-2 bg-white/30" />
-              <p className="text-xl tracking-wider lowercase md:text-2xl lg:text-3xl">
-               the server is closed temporarily to new members
-              </p>
+              
+		<a href="https://discord.gg/pyfacFuq" >Click here to Join the community</a>               
+              
             </div>
           </div>
         </div>
