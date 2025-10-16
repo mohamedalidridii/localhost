@@ -52,7 +52,7 @@ const Contact = () => {
               <h2>be a memeber</h2>
               <div className="w-full h-px my-2 bg-white/30" />
               
-		<a href="https://discord.gg/pyfacFuq" >Click here to Join the community</a>               
+		<a href="https://discord.gg/ECYeN2eb" >Click here to Join the community</a>               
               
             </div>
           </div>
